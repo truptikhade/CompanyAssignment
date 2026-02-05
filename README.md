@@ -35,9 +35,13 @@ http://localhost:8080
 ## API Endpoints
 
 # Add Item =>
+
 POST /items
+
 Example:
+
 URL:: https://companyassignment-1.onrender.com/items
+
 Sample JSON:
 {
   "name": "iPhone 15",
@@ -47,8 +51,11 @@ Sample JSON:
 }
 
 # Get Item by ID =>
+
 GET /items/{id}
+
 Example:
+
 URL:: https://companyassignment-1.onrender.com/items/1
 
 ## Notes
