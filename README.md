@@ -1,6 +1,11 @@
 # Item REST API - Spring Boot Assignment
 
-This project is a RESTful API built using Java and Spring Boot to manage a collection of items .
+This project is a RESTful API built using Java and Spring Boot to manage a collection of items.
+The application is deployed live on Render and accessible over HTTPS.
+
+# Live Application URL
+Base URL:
+https://companyassignment-1.onrender.com
 
 ## Features
 
@@ -30,9 +35,9 @@ http://localhost:8080
 ## API Endpoints
 
 # Add Item =>
-
 POST /items
-
+Example:
+URL:: https://companyassignment-1.onrender.com/items
 Sample JSON:
 {
   "name": "iPhone 15",
@@ -42,11 +47,9 @@ Sample JSON:
 }
 
 # Get Item by ID =>
-
 GET /items/{id}
-
 Example:
-GET /items/1
+URL:: https://companyassignment-1.onrender.com/items/1
 
 ## Notes
 
